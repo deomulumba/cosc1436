@@ -59,7 +59,7 @@ double getvalidpayment(double loanBalance) {
 void displayloanTable(double loan, double interestRate, double monthlyPayment) {
 	cout << endl;
 	cout << "Month  Balance   Payment   Interest   New Balance" << endl;
-	cout << "------------------------------------------------------------" << endl;
+	cout << "--------------------------------------------------------------" << endl;
 
 	double totalInterest = 0;
 	double totalPayments = 0;
@@ -99,7 +99,7 @@ void displayloanTable(double loan, double interestRate, double monthlyPayment) {
 		loan = newBalance;
 	}
 	// Display total payments and interest
-	cout << "--------------------------------------------------------------------------------" << endl;
+	cout << "--------------------------------------------------------------" << endl;
 	cout << "total                " << setw(10) << fixed << setprecision(2) << totalPayments
 		<< setw(14) << totalInterest << endl;
 }
